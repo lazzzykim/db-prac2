@@ -92,6 +92,5 @@ public class JpaItemRepositoryV3 implements ItemRepository {
             return item.itemName.like("%" + itemName + "%");
         }
         return null;
-
     }
 }
